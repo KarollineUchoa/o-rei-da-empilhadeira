@@ -1,0 +1,55 @@
+.container-pai {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 37.5rem;
+  background-color: white;
+  margin: 0 auto;
+  padding: 1.87rem;
+  gap: 0.93rem;
+  border-radius: 0.93rem;
+  text-align: justify;
+}
+
+.container h2 {
+  font-size: 1.87rem;
+  line-height: 2.5rem;
+}
+
+.container .btn-sucesso::before {
+  content: "";
+  background: url(../images/seta-esquerda.png) center left no-repeat;
+  display: inline-block;
+  justify-items: center;
+  align-content: center;
+  width: 1.56rem;
+  height: 0.62rem;
+}
+
+@media (max-width:435px) {
+  .container {
+    max-width: 25rem;
+    margin: 0 0.93rem;
+  }
+  .container h2 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
+
+  .container span {
+    line-height: 110%;
+  }
+
+  .container .btn-sucesso {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.93rem;
+    padding: 0.87rem 1.75rem;
+  }
+}
