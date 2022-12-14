@@ -189,6 +189,7 @@ main .home {
   top: 87%;
   left: 3.12rem;
   right: 3.12rem;
+  z-index: 1;
 }
 
 .mais-item {
